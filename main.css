@@ -1,0 +1,24 @@
+.container {
+  height: 100vh;
+  margin: 0 5%;
+  padding: 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container img {
+  border-radius: 5%;
+  filter: brightness(50%);
+  display: flex;
+  flex-direction: column;
+  height: 20%;
+  width: 30%;
+}
+.container img:hover {
+  filter: brightness(110%);
+  height: 40%;
+  width: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=main.css.map */
